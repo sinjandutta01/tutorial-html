@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>The Picture Element</h1>
+    <picture>
+    <source media="(min-width:650px)" srcset="img_food.jpg">
+     <source media="(min-width: 465px)" srcset="img_car.jpg">
+      <img src="img_girl.jpg" style="width:auto;">
+        <source srcset="img_avatar.png">
+        <source srcset="img_girl.jpg">
+        <img src="img_beatles.gif" alt="Beatles" style="width:auto;">
+    </picture>
+    <p>The Paragraph</p>
+</body>
+</html>
